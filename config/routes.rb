@@ -4,5 +4,10 @@ Rails.application.routes.draw do
   resources :users
 
   #root 'application#hello'
+<<<<<<< HEAD
   root 'users#index'
+=======
+  #root 'users#index'
+  root 'users#firstpage'
+>>>>>>> temp
 end
